@@ -42,7 +42,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRegistrationProblemTest">
+  <component name="RunManager" selected="JUnit.UserRegistrationProblemTest.validateFirstNameTestForPositive">
     <configuration name="UserRegistrationProblemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration" />
       <extension name="coverage">
@@ -118,9 +118,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRegistrationProblemTest.validateFirstNameTestForPositive" />
         <item itemvalue="JUnit.UserRegistrationProblemTest" />
         <item itemvalue="JUnit.UserRegistrationProblemTest.validateMobilePositive" />
-        <item itemvalue="JUnit.UserRegistrationProblemTest.validateFirstNameTestForPositive" />
         <item itemvalue="JUnit.UserRegistrationProblemTest.validateLastNameTestForPositive" />
         <item itemvalue="JUnit.UserRegistrationProblemTest.validateFirstNameTestForPositive (1)" />
       </list>

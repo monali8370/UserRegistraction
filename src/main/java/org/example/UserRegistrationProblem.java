@@ -13,11 +13,17 @@ public class UserRegistrationProblem {
         else
             throw new Exception("You enter Invalid First name as a user: ");
     }
-
     public boolean emailValidation(String email) throws Exception {
         if (Pattern.matches("abc-100@yahoo.com", email))
             return true;
         else
             throw new Exception("You enter invalid mail");
+    }
+
+    public boolean phoneNumber(String phoneNumber) throws Exception {
+        if (Pattern.matches("\\+91-\\d{10}", phoneNumber))
+            return true;
+        else
+            throw new Exception("You entered invalid Phone number as a user");
     }
 }

@@ -7,7 +7,7 @@ public class UserRegistrationProblemTest {
     public void validateFirstNameTestForPositive() {
         boolean name = false;
         try {
-            name = userRegistrationProblem.firstNameValidation("Monali");
+            name = userRegistrationProblem.firstNameValidation("Kuldeep");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -16,17 +16,26 @@ public class UserRegistrationProblemTest {
     public void validateLastNameTestForPositive() {
         boolean lastName = false;
         try {
-            lastName = userRegistrationProblem.lastNameValidation("Monali");
+            lastName = userRegistrationProblem.lastNameValidation("Kuldeep");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    @Test
+    public void emailTest() {
+        boolean email = false;
+        try {
+            email = userRegistrationProblem.emailValidation("abc-100@yahoo.com");
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
     @Test
-    public void emailTest() {
-        boolean email = false;
+    public void validateMobilePositive() {
+        boolean phone = false;
         try {
-            email = userRegistrationProblem.emailValidation("abc-100@yahoo.com");
+            phone = userRegistrationProblem.phoneNumber("+91-9967891679");
         } catch (Exception e) {
             e.printStackTrace();
         }

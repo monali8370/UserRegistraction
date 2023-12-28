@@ -30,12 +30,21 @@ public class UserRegistrationProblemTest {
             e.printStackTrace();
         }
     }
-
     @Test
     public void validateMobilePositive() {
         boolean phone = false;
         try {
             phone = userRegistrationProblem.phoneNumber("+91-9967891699");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void validatePassword() {
+        boolean actual2 = false;
+        try {
+            actual2 = userRegistrationProblem.passwordValidation("Monali@895");
         } catch (Exception e) {
             e.printStackTrace();
         }

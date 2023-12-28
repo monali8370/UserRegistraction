@@ -19,11 +19,20 @@ public class UserRegistrationProblem {
         else
             throw new Exception("You enter invalid mail");
     }
-
     public boolean phoneNumber(String phoneNumber) throws Exception {
         if (Pattern.matches("\\+91-\\d{10}", phoneNumber))
             return true;
         else
             throw new Exception("You entered invalid Phone number as a user");
     }
+
+
+    public boolean passwordValidation(String password) throws Exception {
+        if (Pattern.matches("(?=.*?[A-Z])(?=.*?\\d)(?=.*?[!@#$%^&*_()+-])[A-Za-z\\d!@#$%^&()*+_-]{8,}", password))
+            return true;
+        else
+            throw new Exception("You Enter invalid Password");
+    }
+
+
 }

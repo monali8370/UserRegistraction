@@ -42,7 +42,22 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRegistrationProblemTest.validateMobilePositive">
+  <component name="RunManager" selected="JUnit.UserRegistrationProblemTest">
+    <configuration name="UserRegistrationProblemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UserRegistrationProblemTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserRegistrationProblemTest.validateFirstNameTestForPositive (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration" />
       <option name="PACKAGE_NAME" value="" />
@@ -103,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRegistrationProblemTest" />
         <item itemvalue="JUnit.UserRegistrationProblemTest.validateMobilePositive" />
         <item itemvalue="JUnit.UserRegistrationProblemTest.validateFirstNameTestForPositive" />
         <item itemvalue="JUnit.UserRegistrationProblemTest.validateLastNameTestForPositive" />

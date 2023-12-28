@@ -35,7 +35,7 @@ public class UserRegistrationProblemTest {
     public void validateMobilePositive() {
         boolean phone = false;
         try {
-            phone = userRegistrationProblem.phoneNumber("+91-9967899679");
+            phone = userRegistrationProblem.phoneNumber("+91-9967891699");
         } catch (Exception e) {
             e.printStackTrace();
         }

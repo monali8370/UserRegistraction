@@ -7,7 +7,7 @@ public class UserRegistrationProblemTest {
     public void validateFirstNameTestForPositive() {
         boolean name = false;
         try {
-            name = userRegistrationProblem.firstNameValidation("Kuldeep");
+            name = userRegistrationProblem.firstNameValidation("Monali");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -16,7 +16,7 @@ public class UserRegistrationProblemTest {
     public void validateLastNameTestForPositive() {
         boolean lastName = false;
         try {
-            lastName = userRegistrationProblem.lastNameValidation("Kuldeep");
+            lastName = userRegistrationProblem.lastNameValidation("Monali");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -35,7 +35,7 @@ public class UserRegistrationProblemTest {
     public void validateMobilePositive() {
         boolean phone = false;
         try {
-            phone = userRegistrationProblem.phoneNumber("+91-9967891679");
+            phone = userRegistrationProblem.phoneNumber("+91-9967899679");
         } catch (Exception e) {
             e.printStackTrace();
         }

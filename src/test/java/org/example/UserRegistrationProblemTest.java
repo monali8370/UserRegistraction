@@ -52,15 +52,23 @@ public class UserRegistrationProblemTest {
     public void validatePassword1() {
         boolean pass2 = false;
         try {
-            pass2 = userRegistrationProblem.passwordValidation("Monali@895");
             pass2 = userRegistrationProblem.passwordValidation("Monali@947");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    @Test
+    public void validatePassword3() {
+        boolean pass3 = false;
+        try {
+            pass3 = userRegistrationProblem.passwordValidation("Monali@947");
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
     @Test
-    public void validatePassword3() {
+    public void validatePassword4() {
         boolean pass3 = false;
         try {
             pass3 = userRegistrationProblem.passwordValidation("Monali@947");

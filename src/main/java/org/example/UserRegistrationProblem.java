@@ -25,9 +25,20 @@ public class UserRegistrationProblem {
         else
             throw new Exception("You entered invalid Phone number as a user");
     }
-
-
     public boolean passwordValidation(String password) throws Exception {
+        if (Pattern.matches("(?=.*?[A-Z])(?=.*?\\d)(?=.*?[!@#$%^&*_()+-])[A-Za-z\\d!@#$%^&()*+_-]{8,}", password))
+            return true;
+        else
+            throw new Exception("You Enter invalid Password");
+    }
+    public boolean passwordValidation1(String password) throws Exception {
+        if (Pattern.matches("(?=.*?[A-Z])(?=.*?\\d)(?=.*?[!@#$%^&*_()+-])[A-Za-z\\d!@#$%^&()*+_-]{8,}", password))
+            return true;
+        else
+            throw new Exception("You Enter invalid Password");
+    }
+
+    public boolean passwordValidation3(String password) throws Exception {
         if (Pattern.matches("(?=.*?[A-Z])(?=.*?\\d)(?=.*?[!@#$%^&*_()+-])[A-Za-z\\d!@#$%^&()*+_-]{8,}", password))
             return true;
         else

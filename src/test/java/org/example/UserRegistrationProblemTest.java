@@ -39,24 +39,31 @@ public class UserRegistrationProblemTest {
             e.printStackTrace();
         }
     }
-
     @Test
     public void validatePassword() {
-        boolean actual2 = false;
         boolean pass = false;
         try {
-            actual2 = userRegistrationProblem.passwordValidation("Monali@895");
             pass = userRegistrationProblem.passwordValidation("Monali@895");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    @Test
+    public void validatePassword1() {
+        boolean pass2 = false;
+        try {
+            pass2 = userRegistrationProblem.passwordValidation("Monali@895");
+            pass2 = userRegistrationProblem.passwordValidation("Monali@947");
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
     @Test
-    public void validatePassword1() {
-        boolean pass2 = false;
+    public void validatePassword3() {
+        boolean pass3 = false;
         try {
-            pass2 = userRegistrationProblem.passwordValidation("Monali@895");
+            pass3 = userRegistrationProblem.passwordValidation("Monali@947");
         } catch (Exception e) {
             e.printStackTrace();
         }
